@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6720270782,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in telecom home page",
+            "match": {
+              "location": "AddCustomerSteps.the_user_is_in_telecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1535288665,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click on add custome",
+            "match": {
+              "location": "AddCustomerSteps.x()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 709855889,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is filling all the detail",
+            "match": {
+              "location": "AddCustomerSteps.the_user_is_filling_all_the_detail(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "address",
+                  "phno"
+                ]
+              },
+              {
+                "cells": [
+                  "test",
+                  "exam",
+                  "kj@gmail.com",
+                  "thanjavore",
+                  "123156143"
+                ]
+              },
+              {
+                "cells": [
+                  "testA",
+                  "examA",
+                  "Akj@gmail.com",
+                  "madurai",
+                  "123156143"
+                ]
+              },
+              {
+                "cells": [
+                  "testB",
+                  "examB",
+                  "Bkj@gmail.com",
+                  "trichy",
+                  "123156143"
+                ]
+              },
+              {
+                "cells": [
+                  "testC",
+                  "examC",
+                  "Ckj@gmail.com",
+                  "chennai",
+                  "123156143"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2130016901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "AddCustomerSteps.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40257213,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should be displayed the customer id",
+            "match": {
+              "location": "AddCustomerSteps.the_user_should_be_displayed_the_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "C:src/test/resources/Feature/AddCustomer.feature",
+    "tags": []
+  }
+]
